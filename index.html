@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#080f13">
+  <meta name="description" content="一夜，三张牌。你与 AGI 的对话，将通向三种不同的命运。原创中文图文叙事游戏《最后的解答》。">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; media-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <title>最后的解答 · The Last Solution</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="./assets/cover.webp" as="image">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.mjs"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到游戏</a>
+  <div id="app"><main id="main" class="loading"><p class="eyebrow">THE LAST SOLUTION</p><h1>正在接通这一夜</h1><p>首次打开需要加载剧本与画面。</p></main></div>
+  <noscript><p class="notice">请启用 JavaScript 后重新打开游戏。</p></noscript>
+  <p id="notice" class="notice" role="status" hidden></p>
+  <dialog id="dialog" aria-labelledby="dialog-title"></dialog>
+  <input id="import-file" type="file" accept="application/json,.json" hidden>
+</body>
+</html>
